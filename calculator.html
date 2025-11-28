@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+<header>
+    <h1>Calculator</h1>
+</header>
+<div class="mainDiv">
+    <div id="calc">
+        <h2 id="upperHead"></h2>
+        <h2 id="lowerHead"></h2>
+        <input type="text" id="inpText"disabled>
+        <div id="buttonDiv">
+            <button class="btn" id="seven" onclick="display(7)">7</button>
+            <button class="btn" id="eight" onclick="display(8)">8</button>
+            <button class="btn" id="nine" onclick="display(9)">9</button>
+            <button class="btn" id="add" onclick="add()">+</button>
+            <button class="btn" id="clear" onclick="clearAll()">c</button>
+            <button class="btn" id="four" onclick="display(4)">4</button>
+            <button class="btn" id="five" onclick="display(5)">5</button>
+            <button class="btn" id="six" onclick="display(6)">6</button>
+            <button class="btn" id="sub" onclick="sub()">-</button>
+            <button class="btn" id="one" onclick="display(1)">1</button>
+            <button class="btn" id="two" onclick="display(2)">2</button>
+            <button class="btn" id="three" onclick="display(3)">3</button>
+            <button class="btn" id="mul" onclick="mul()">*</button>
+            <button class="btn" id="equal" onclick="equal()">=</button>
+            <button class="btn" id="zero" onclick="display(0)">0</button>
+            <button class="btn" id="dot" onclick="onDot()">.</button>
+            <button class="btn" id="div" onclick="div()">/</button>
+        </div>
+    </div>
+</div>
+<footer>
+    <p> Calculator version 1.0 </p>
+</footer>
+<script src="calculator.js"></script>    
+</body>
+</html>
