@@ -84,15 +84,6 @@ Responsive layout
 
 Keyboard support
 
-🔧 How to Run
-
-Just open the calculator.html file in your browser:
-
-Right Click → Open With → Chrome / Firefox / Edge
-
-
-No installation required.
-
 👨‍💻 Author
 
 Sujith V
